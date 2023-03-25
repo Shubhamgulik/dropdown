@@ -9,6 +9,17 @@ Passed List of subjects as props to the component.
 -> The dropdown component should receive the items array to display the items in the list.
 -> On click of an option in dropdown list, close the dropdown.
 
+### Before hover
+![image](https://user-images.githubusercontent.com/42814032/227709276-03fba895-9591-4593-bd15-e4394eee2fbf.png)
+
+### After hover
+![image](https://user-images.githubusercontent.com/42814032/227709323-4fe5db11-125f-4ee8-9ddd-c8471212d929.png)
+
+### Subject selected
+![image](https://user-images.githubusercontent.com/42814032/227709344-daf7a16b-ff98-4711-a23d-2b05889552fb.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
