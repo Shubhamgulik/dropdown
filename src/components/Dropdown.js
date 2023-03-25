@@ -26,7 +26,7 @@ function Dropdown({ list }) {
           {hover &&
             list.map((item) => {
               return (
-                <p onClick={handleClick} className="dropdown__item">
+                <p className="dropdown__item" onClick={handleClick}>
                   {item}
                 </p>
               );
