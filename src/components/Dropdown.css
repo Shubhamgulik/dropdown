@@ -1,0 +1,47 @@
+.header {
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  /* margin: auto auto;     */
+  padding: 15px;
+}
+
+.dropdown__selectItem {
+  font-family: "Courier New", Courier, monospace;
+
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.dropdown__list {
+  margin-top: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+.dropdown__item {
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 10px;
+  padding-top: 15px;
+  /* padding-left: 5px; */
+}
+.dropdown__item:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.dropdown__show {
+  opacity: 0;
+}

@@ -1,0 +1,7 @@
+.App {
+  height: 100vh;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
