@@ -5,12 +5,10 @@ import React, { useState } from "react";
 import "./Dropdown.css";
 
 function Dropdown({ list }) {
-  console.log("List", list);
   const [selectItem, setSelectItem] = useState("Select");
   const [hover, setHover] = useState();
 
   const handleClick = (e) => {
-    console.log(e.target.innerHTML);
     setSelectItem(e.target.innerHTML);
     setHover(false);
   };
@@ -24,9 +22,9 @@ function Dropdown({ list }) {
         </div>
         <div className="dropdown__list">
           {hover &&
-            list.map((item) => {
+            list.map((item, index) => {
               return (
-                <p className="dropdown__item" onClick={handleClick}>
+                <p className="dropdown__item" onClick={handleClick} key={index}>
                   {item}
                 </p>
               );
