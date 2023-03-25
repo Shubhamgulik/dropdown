@@ -1,18 +1,19 @@
+/* Header of the dropdown component */
 .header {
   margin-bottom: 10px;
 }
 
+/* Dropdown component */
 .dropdown {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
-  /* margin: auto auto;     */
   padding: 15px;
 }
 
+/* Selected Item in the list */
 .dropdown__selectItem {
   font-family: "Courier New", Courier, monospace;
-
   width: 300px;
   height: 50px;
   background-color: #fff;
@@ -23,10 +24,14 @@
   padding-top: 15px;
   cursor: pointer;
 }
+
+/* Dropdown list */
 .dropdown__list {
   margin-top: 5px;
   font-family: "Courier New", Courier, monospace;
 }
+
+/* Single Item in the list */
 .dropdown__item {
   width: 300px;
   height: 50px;
@@ -36,12 +41,10 @@
   font-weight: 200;
   padding: 10px;
   padding-top: 15px;
-  /* padding-left: 5px; */
 }
+
+/* Hovering list */
 .dropdown__item:hover {
   background-color: antiquewhite;
   cursor: pointer;
-}
-.dropdown__show {
-  opacity: 0;
 }
